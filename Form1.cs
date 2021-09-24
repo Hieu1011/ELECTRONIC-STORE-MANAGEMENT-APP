@@ -17,5 +17,19 @@ namespace ELECTRONIC_STORE_MANAGEMENT_APP
             InitializeComponent();
         }
 
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox3_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
