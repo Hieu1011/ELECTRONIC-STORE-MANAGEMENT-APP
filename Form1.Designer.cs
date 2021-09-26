@@ -35,21 +35,22 @@ namespace ELECTRONIC_STORE_MANAGEMENT_APP
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.button4 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(63, 221);
+            this.button1.Location = new System.Drawing.Point(36, 118);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
             this.button1.Text = "username";
             this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(63, 297);
+            this.button2.Location = new System.Drawing.Point(36, 198);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(94, 29);
             this.button2.TabIndex = 1;
@@ -58,32 +59,31 @@ namespace ELECTRONIC_STORE_MANAGEMENT_APP
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(276, 223);
+            this.textBox1.Location = new System.Drawing.Point(209, 120);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(125, 27);
+            this.textBox1.Size = new System.Drawing.Size(328, 27);
             this.textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(276, 297);
+            this.textBox2.Location = new System.Drawing.Point(209, 200);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(125, 27);
+            this.textBox2.Size = new System.Drawing.Size(328, 27);
             this.textBox2.TabIndex = 3;
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(158, 374);
+            this.button3.Location = new System.Drawing.Point(149, 359);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(94, 24);
+            this.button3.Size = new System.Drawing.Size(94, 37);
             this.button3.TabIndex = 4;
-            this.button3.Text = "sign in";
+            this.button3.Text = "Sign in";
             this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Location = new System.Drawing.Point(225, 26);
+            this.linkLabel1.Location = new System.Drawing.Point(226, 9);
             this.linkLabel1.MaximumSize = new System.Drawing.Size(500, 500);
             this.linkLabel1.MinimumSize = new System.Drawing.Size(300, 100);
             this.linkLabel1.Name = "linkLabel1";
@@ -92,22 +92,45 @@ namespace ELECTRONIC_STORE_MANAGEMENT_APP
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "ĐĂNG NHẬP";
             this.linkLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(432, 361);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(94, 35);
+            this.button4.TabIndex = 6;
+            this.button4.Text = "Sign up";
+            this.button4.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(270, 367);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(147, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Don\'t have account ?";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Aquamarine;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(795, 453);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.ForeColor = System.Drawing.Color.Crimson;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.Text = "Dang nhap";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,5 +144,7 @@ namespace ELECTRONIC_STORE_MANAGEMENT_APP
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Label label1;
     }
 }
